@@ -9,7 +9,7 @@ export default function Home() {
       
       </Head>
       <div>
-        <div className='h-screen w-screen flex justify-center items-center'>
+        <div className='h-screen w-screen flex justify-center items-center bg-lightbg'>
         <h1 className='font-playlist text-7xl'>Monika Dzierzanowska</h1>
         </div>
       </div>
