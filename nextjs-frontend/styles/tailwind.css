@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: "PlaylistScript";
+		src: url("/assets/fonts/PlaylistScript/Playlist-Script.woof2") format("woof2"),
+			url("/assets/fonts/PlaylistScript/Playlist-Script.woof") format("woof");
+	}
+	@font-face {
+		font-family: "Mali";
+		src: url("/assets/fonts/Mali/Mali-Regular.woof2") format("woof2"),
+			url("/assets/fonts/Mali/Mali-Regular.woof") format("woof");
+	}
+}
