@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Navbar = () => {
-    return (
-        <nav className='bg-gray-200'>
-            <p>To jest navbar</p>
-        </nav>
-    )
-}
+const Navbar = () => (
+    <nav className="bg-gray-200">
+        <p>To jest navbar</p>
+    </nav>
+);
 
-export default Navbar
+export default Navbar;

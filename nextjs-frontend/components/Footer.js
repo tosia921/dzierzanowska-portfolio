@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Footer = () => {
-    return (
-        <footer className='bg-gray-200'>
-            <p>To jest footer</p>
-        </footer>
-    )
-}
+const Footer = () => (
+    <footer className="bg-gray-200">
+        <p>To jest footer</p>
+    </footer>
+);
 
-export default Footer
+export default Footer;
