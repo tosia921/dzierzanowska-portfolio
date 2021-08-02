@@ -4,13 +4,31 @@
 
 @layer base {
 	@font-face {
-		font-family: "PlaylistScript";
-		src: url("/assets/fonts/PlaylistScript/Playlist-Script.woof2") format("woof2"),
-			url("/assets/fonts/PlaylistScript/Playlist-Script.woof") format("woof");
+		font-family: "Playlist Script";
+		src: url(../public/assets/fonts/PlaylistScript/Playlist-Script.woff),
+			url(../public/assets/fonts/PlaylistScript/Playlist-Script.woff2);
+
+		font-display: swap;
 	}
 	@font-face {
 		font-family: "Mali";
-		src: url("/assets/fonts/Mali/Mali-Regular.woof2") format("woof2"),
-			url("/assets/fonts/Mali/Mali-Regular.woof") format("woof");
+		src: url(../public/assets/fonts/Mali/Mali-Regular.woff), url(../public/assets/fonts/Mali/Mali-Regular.woff2);
+	}
+	.homepage-height {
+		height: calc(100vh - 40px);
+	}
+	.img-width {
+		width: 150%;
+	}
+	a {
+		-webkit-tap-highlight-color: transparent;
+	}
+	.font-playscript {
+		font-family: "Playlist Script";
+	}
+	.center-absolute {
+		top: 20%;
+		left: 50%;
+		transform: translate(-50%, -17%);
 	}
 }

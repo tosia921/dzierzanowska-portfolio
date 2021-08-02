@@ -8,7 +8,7 @@
       "prefer-destructuring": ["error", {"object": true, "array": false}],
       "react/prop-types": "off",
       "react/jsx-props-no-spreading": "off",
-      "arrow-body-style": ["error", "never"],
+      "arrow-body-style": ["error", "always"],
       "prettier/prettier": [
         "error",
         {
