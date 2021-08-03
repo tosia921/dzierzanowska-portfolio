@@ -29,10 +29,10 @@ module.exports = {
                 },
             },
             deliciousHamburgers: {
-                size: '40px', // must be in px.
+                size: '60px', // must be in px.
                 color: '#000000',
                 colorLight: '#fff8f4',
-                padding: '5px', // must be in px.
+                padding: '10px', // must be in px.
                 animationSpeed: 1,
             },
         },

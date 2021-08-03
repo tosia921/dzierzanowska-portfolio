@@ -4,7 +4,7 @@ const Hamburger = ({ isOpen, setIsOpen }) => {
     return (
         <button
             type="button"
-            className={`c-hamburger c-hamburger--twist z-50 absolute top-0.5 right-1.5 md:hidden cursor-pointer ${
+            className={`c-hamburger c-hamburger--twist z-50 absolute top-0.5 right-1.5 md:hidden cursor-pointer remove-highligh ${
                 isOpen ? 'active' : ''
             }`}
             onClick={() => {

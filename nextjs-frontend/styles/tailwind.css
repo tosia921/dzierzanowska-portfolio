@@ -31,4 +31,7 @@
 		left: 50%;
 		transform: translate(-50%, -90%);
 	}
+	.remove-highligh {
+		-webkit-tap-highlight-color: transparent;
+	}
 }
