@@ -2,6 +2,7 @@ import Head from 'next/head';
 // Components
 import LandingPage from '../components/LandingPage';
 import AboutMe from '../components/AboutMe';
+import PortfiolioPreview from '../components/PortfiolioPreview';
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             </Head>
             <LandingPage />
             <AboutMe />
+            <PortfiolioPreview />
         </>
     );
 }
