@@ -24,6 +24,9 @@ module.exports = {
                 darkpink: {
                     DEFAULT: '#FCB8B6',
                 },
+                textcolor: {
+                    DEFAULT: '#484848',
+                },
             },
             deliciousHamburgers: {
                 size: '40px', // must be in px.

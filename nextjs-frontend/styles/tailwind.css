@@ -26,9 +26,9 @@
 	.font-playscript {
 		font-family: "Playlist Script";
 	}
-	.center-absolute {
-		top: 20%;
+	.center-absolute-about-me {
+		top: 50%;
 		left: 50%;
-		transform: translate(-50%, -17%);
+		transform: translate(-50%, -80%);
 	}
 }

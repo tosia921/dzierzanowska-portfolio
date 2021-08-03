@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="bg-lightbg p-5">
-                <ul className="hidden md:flex md:justify-center md:items-center font-mali font-medium text-lg z-10 relative">
+                <ul className="hidden md:flex md:justify-center md:items-center font-mali font-bold text-lg z-10 relative">
                     <li className="pr-4">
                         <Link href="/" className="p-4">
                             <a>Home</a>
