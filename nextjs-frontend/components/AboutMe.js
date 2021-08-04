@@ -1,12 +1,16 @@
 import React from 'react';
+// i18n trsanslations hook
+import { useTranslation } from 'next-i18next';
 
 const AboutMe = () => {
+    // Hook that allows me to use nexti18next translations
+    const { t } = useTranslation('common');
     return (
-        <section className="h-screen bg-lightpink flex justify-center items-center">
+        <section className="h-screen bg-lightpink flex justify-center items-center z-40 relative">
             <div className="px-6 md:px-10 lg:px-[15%] xl:px-[20%]">
                 <div className="relative flex justify-center items-center">
                     <h2 className="font-playlist text-center text-5xl lg:text-6xl xl:text-7xl pb-12 z-10 relative flex">
-                        About Me
+                        {t('About Me')}
                     </h2>
                     <img
                         src="/assets/images/brushWhite.svg"

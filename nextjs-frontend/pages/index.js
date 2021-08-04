@@ -1,4 +1,6 @@
 import Head from 'next/head';
+// i18n
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 // Components
 import LandingPage from '../components/LandingPage';
 import AboutMe from '../components/AboutMe';
@@ -16,4 +18,13 @@ export default function Home() {
             <PortfiolioPreview />
         </>
     );
+}
+
+export async function getStaticProps({ locale }) {
+    return {
+        props: {
+            ...(await serverSideTranslations(locale, ['common'])),
+            // Will be passed to the page component as props
+        },
+    };
 }

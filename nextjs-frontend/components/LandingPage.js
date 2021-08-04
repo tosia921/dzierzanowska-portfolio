@@ -1,6 +1,10 @@
 import React from 'react';
+// i18n trsanslations hook
+import { useTranslation } from 'next-i18next';
 
 const LandingPage = () => {
+    // Hook that allows me to use nexti18next translations
+    const { t } = useTranslation('common');
     return (
         <section className="relative">
             <div>
@@ -15,7 +19,9 @@ const LandingPage = () => {
                             className="hidden sm:block absolute -top-2 sm:top-[-20px] sm:left-0 lg:left-8 xl:scale-150 xl:top-[-10px] xl:left-[170px]"
                         />
                     </div>
-                    <h2 className="font-mali italic font-light text-2xl lg:text-3xl z-10">Artist & Illustrator</h2>
+                    <h2 className="font-mali italic font-light text-2xl lg:text-3xl z-10">
+                        {t('Artist & Illustrator')}
+                    </h2>
                 </div>
             </div>
             <img

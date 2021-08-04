@@ -1,7 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
+// i18n trsanslations hook
+import { useTranslation } from 'next-i18next';
 
 const Dropdown = ({ isOpen }) => {
+    // Hook that allows me to use nexti18next translations
+    const { t } = useTranslation('common');
     return (
         <div
             className={`absolute transition-all duration-1000 z-40 ${
@@ -11,22 +15,22 @@ const Dropdown = ({ isOpen }) => {
             <ul className="grid grid-rows-4 text-center items-center py-10 font-mali font-medium text-lg bg-darkpink">
                 <li className="p-4">
                     <Link href="/">
-                        <a>Home</a>
+                        <a>{t('Home')}</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/about" className="">
-                        <a>About Me</a>
+                        <a>{t('About Me')}</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/portfolio" className="">
-                        <a>Portfolio</a>
+                        <a>{t('Portfolio')}</a>
                     </Link>
                 </li>
                 <li>
                     <Link href="/contact" className="">
-                        <a>Contact</a>
+                        <a>{t('Contact')}</a>
                     </Link>
                 </li>
             </ul>

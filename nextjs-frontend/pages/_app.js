@@ -1,4 +1,7 @@
 import '../styles/tailwind.css';
+// i18n
+import { appWithTranslation } from 'next-i18next';
+// components
 import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }) {
@@ -9,4 +12,4 @@ function MyApp({ Component, pageProps }) {
     );
 }
 
-export default MyApp;
+export default appWithTranslation(MyApp);
