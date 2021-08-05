@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "Monika Portfolio"
+    "name": "sanity-backend"
   },
   "api": {
-    "projectId": "xw04vlbr",
+    "projectId": "9yb0ux6c",
     "dataset": "production"
   },
   "plugins": [
